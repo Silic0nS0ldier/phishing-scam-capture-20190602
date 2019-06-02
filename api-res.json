@@ -1,0 +1,20 @@
+{
+    "al": false,
+    "c": null,
+    "createdAt": "2018-07-10T02:57:30.524Z",
+    "email": "example@uowmail.edu.au",
+    "facicon": "/{32-char-hash-1}/favicon.ico",
+    "id": "{32-char-hash-2}",
+    "images": [
+        {
+            "mime": "image/jpeg",
+            "url": "https://www.uow.edu.au/content/groups/public/@web/documents/web/university_of_wollongong_logo.jpg"
+        }
+    ],
+    "ispname": "UOW",
+    "logo": "{32-char-hash-3}.png",
+    "nl": true,
+    "p": "https://webanalyticswixsitebuilder.onlineweb-analytics.site/site-tag293402490207774",
+    "updatedAt": "2018-07-10T02:57:30.524Z",
+    "_id": "uowmail.edu.au"
+}
