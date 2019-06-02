@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .App,
+  body {
+    font-size: 16px;
+  }
+  
+  .App,
+  .pure-button,
+  .txt-align-center {
+    text-align: center;
+  }
+  
+  .App {
+    min-height: 100%;
+    display: block;
+    direction: ltr;
+    font-family: Helvetica Neue, Helvetica;
+  }
+  
+  img {
+    border: 0;
+  }
+  
+  body {
+    font-weight: 400;
+    background-color: #fff;
+  }
+  
+  .logo {
+    max-height: 140px;
+    max-width: 350px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #39f;
+  }
+  
+  button {
+    align-items: flex-start;
+  }
+  
+  .pure-button,
+  input.pure-button {
+    padding: 0.75em 1.45em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 2px;
+    color: #42597a;
+    background-color: #eeeef5;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #e4e7ef;
+    white-space: normal;
+  }
+  
+  .pure-button {
+    font-family: inherit;
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+  
+  .login-box {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 360px;
+    min-height: 550px;
+    z-index: 1;
+    padding: 35px 5px 10px;
+    border-top: 1px solid #f1f1f5;
+  }
+  
+  .login-box,
+  .login-box-ad-fallback {
+    position: absolute;
+    top: 11px;
+  }
+  
+  .responsive .login-box {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top: 0;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    right: auto;
+  }
+  
+  .login-box {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  
+  .puree-button-primary {
+    color: #fff;
+    background: #39f;
+    border: 2px solid #39f;
+  }
+  
+  #password-challenge .puree-button-link {
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+  }
+  
+  .puree-button-link,
+  input.puree-button-link {
+    color: #39f;
+    background: 0 0;
+    border-color: transparent;
+  }
+  
+  #password-challenge .not-you {
+    font-size: 13px;
+  }
+  
+  #password-challenge .username {
+    padding: 5px;
+    text-transform: none;
+    font-size: 18px;
+    word-wrap: break-word;
+  }
+  
+  .challenge {
+    padding: 0 10px;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  a,
+  div,
+  li,
+  ul {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .login-box-container {
+    margin: 0 auto;
+    max-width: 1030px;
+    min-width: 320px;
+    position: relative;
+  }
+  
+  .loginish {
+    min-height: 100%;
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+  
+  #UH,
+  body {
+    min-width: 0 !important;
+  }
+  
+  .pure-form input {
+    -webkit-appearance: none;
+  }
+  
+  .pure-g [class*="pure-u"],
+  button,
+  code,
+  html,
+  input,
+  select,
+  textarea {
+    font-family: Helvetica Neue, Helvetica;
+  }
+  
+  button,
+  input,
+  select,
+  textarea {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0;
+    font: 400 11px system-ui;
+  }
+  
+  .password,
+  h1 {
+    font-size: 16px;
+    display: block;
+  }
+  
+  .password {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    height: 32px;
+    padding: 0 8px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #d8dade;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  #password-challenge .greeting {
+    display: block;
+    margin: 24px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0.57em 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #101010;
+  }
+  
+  @keyframes FadeAnimation {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+  .adios {
+    animation: FadeAnimation 1s ease-in 0.2s forwards;
+  }
+  
